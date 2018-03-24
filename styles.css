@@ -1,0 +1,11 @@
+.hero-img-text {
+    background-color: rgba(0, 128, 128, 0.438);
+    border-radius: 15px 50px;
+    width: auto;
+    height: 150px; 
+    margin: 10px;
+}
+
+.carousel .carousel-item {
+    width: 500px !important;
+}
