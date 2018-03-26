@@ -9,3 +9,18 @@
 .carousel .carousel-item {
     width: 500px !important;
 }
+
+.house-logo {
+    max-height: 45px;
+    margin-top: 10px;
+    
+}
+
+.nav-list {
+    margin-left: 50px;
+}
+
+.nav-list > li {
+    margin-left: 10px;
+    font-style: italic;
+}
