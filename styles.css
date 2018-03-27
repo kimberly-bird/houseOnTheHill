@@ -1,6 +1,6 @@
 .hero-img-text {
-    background-color: rgba(0, 128, 128, 0.438);
-    border-radius: 15px 50px;
+    background-color: rgba(0, 128, 0, 0.301);
+    border-radius: 50px;
     width: auto;
     height: 150px; 
     margin: 10px;
@@ -18,9 +18,22 @@
 
 .nav-list {
     margin-left: 50px;
+    position: absolute;
+    right: 0px;
 }
 
 .nav-list > li {
     margin-left: 10px;
     font-style: italic;
+    font-size: 1.7em;
+    color: rgba(0, 128, 0, 0.651);
+}
+
+.bio {
+    text-align: justify;
+}
+
+.img-desc {
+    margin-top: -65px;
+    color: white;
 }
