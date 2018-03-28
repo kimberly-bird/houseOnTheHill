@@ -34,6 +34,16 @@
 }
 
 .img-desc {
-    margin-top: -65px;
     color: white;
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    background-color: rgba(0, 128, 0, 0.651);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.daycare-images {
+    height: 700px;
 }
