@@ -17,17 +17,17 @@
 }
 
 .nav-list {
-    margin-left: 50px;
+    margin-left: 20px;
     position: absolute;
     right: 0px;
 }
 
-.nav-list > li {
-    margin-left: 10px;
-    font-style: italic;
+.nav-list > li > a {
+    margin-left: 50px;
     font-size: 1.7em;
     color: rgba(0, 128, 0, 0.651);
 }
+
 
 .bio {
     text-align: justify;
@@ -45,5 +45,32 @@
 }
 
 .daycare-images {
-    height: 700px;
+    height: 500px;
 }
+
+.card {
+    height: 450px;
+    width: 400px;
+    overflow: hidden;
+   }
+   .card img {
+    height: 375px;
+    width: auto;
+   }
+
+.tag-line > li {
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgba(0, 128, 0, 0.651);
+    margin-right: 12px;
+    font-style: italic;
+}
+
+.tag-line-footer > li {
+    display: inline-block;
+    font-size: 1.7em;
+    color: white;
+    margin-right: 12px;
+    font-style: italic;
+}
+

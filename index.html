@@ -14,19 +14,26 @@
 </head>
 
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">
-        <img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img">
-      </a>
-      <ul class="nav-list">
-        <li>Learn. </li>
-        <li>Create. </li>
-        <li>Laugh. </li>
-        <li>Grow. </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">
+          <img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img">
+        </a>
+        <ul class="nav-list">
+          <li>
+            <a href="#tour">Tour</a>
+          </li>
+          <li>
+            <a href="#about-teachers">Meet the Teachers</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -52,11 +59,10 @@
     </div>
   </div>
 
-
   <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
+      <!--   Center Info Section   -->
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="icon-block">
@@ -74,12 +80,79 @@
                 <i class="material-icons">favorite_border</i>House on the Hill
               </p>
               <a href="#contact-us" class="btn-large waves-effect waves-light green">Contact Details</a>
+              <a href="#about-teachers" class="btn-large waves-effect waves-light green">Teacher Bios</a>
             </div>
           </div>
         </div>
         <div class="col s12 m6 l6">
           <div class="icon-block">
             <img src="img/house-logo.png" alt="house logo" class="responsive-img">
+            <ul class="tag-line">
+              <li>Learn. </li>
+              <li>Create. </li>
+              <li>Laugh. </li>
+              <li>Grow. </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="img/color.png" alt="Unsplashed background img 2">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section" id="about-teachers">
+      <a href="about-teachers"></a>
+
+      <!--   Teacher Section   -->
+      <div class="row">
+        <h4 class="center">Meet Ms. Leni & Ms. B</h4>
+        <div class="col s12 m6 l6">
+
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/leni.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ms. Leni's Bio
+                <i class="material-icons right">more_vert</i>
+              </span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ms. Leni's Bio
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/beverly.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ms. B's Bio
+                <i class="material-icons right">more_vert</i>
+              </span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ms. B's Bio
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -97,6 +170,7 @@
     </div>
   </div>
 
+  <!-- Center Tour Section -->
   <div class="container">
     <div class="section">
       <div class="row">
@@ -140,6 +214,7 @@
               </p>
             </a>
           </div>
+          <br />
           <hr />
           <div class="col s12 center">
             <h3>
@@ -166,7 +241,7 @@
       </div>
     </div>
     <div class="parallax">
-      <img src="img/nashville.jpg" alt="Unsplashed background img 3">
+      <img src="img/play.png" alt="Unsplashed background img 3">
     </div>
   </div>
 
@@ -176,10 +251,15 @@
         Made by
         <a href="http://kimberlybird.me" target="_blank" class="brown-text">Kimberly Bird</a> with
         <a class="brown-text" href="http://materializecss.com" target="_blank">Materialize</a>
+        <ul class="tag-line-footer">
+          <li>Learn. </li>
+          <li>Create. </li>
+          <li>Laugh. </li>
+          <li>Grow. </li>
+        </ul>
       </div>
     </div>
   </footer>
-
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
