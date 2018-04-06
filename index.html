@@ -14,26 +14,40 @@
 </head>
 
 <body>
-  <div class="navbar-fixed">
-    <nav class="white" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">
-          <img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img">
-        </a>
-        <ul class="nav-list">
-          <li>
-            <a href="#tour">Tour</a>
-          </li>
-          <li>
-            <a href="#about-teachers">Meet the Teachers</a>
-          </li>
-          <li>
-            <a href="#contact-us">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+
+  <nav class="nav-style">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">
+        <img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img">
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons white-text">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#tour" class="white-text">Tour</a>
+        </li>
+        <li>
+          <a href="#about-teachers" class="white-text">Meet the Teachers</a>
+        </li>
+        <li>
+          <a href="#contact-us" class="white-text">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="#tour">Tour</a>
+    </li>
+    <li>
+      <a href="#about-teachers">Meet the Teachers</a>
+    </li>
+    <li>
+      <a href="#contact-us">Contact Us</a>
+    </li>
+  </ul>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -80,6 +94,8 @@
                 <i class="material-icons">favorite_border</i>House on the Hill
               </p>
               <a href="#contact-us" class="btn-large waves-effect waves-light green">Contact Details</a>
+              <br />
+              <br />
               <a href="#about-teachers" class="btn-large waves-effect waves-light green">Teacher Bios</a>
             </div>
           </div>
@@ -118,11 +134,11 @@
       <!--   Teacher Section   -->
       <div class="row">
         <h4 class="center">Meet Miss Leni & Ms. B</h4>
-        <div class="col s12 m6 l6">
+        <div class="col s12 l6">
 
           <div class="card hoverable">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/msLeni.png">
+              <img class="activator responsive" src="img/msLeni.png">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Miss Leni's Bio
@@ -142,7 +158,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l6">
+        <div class="col s12 l6">
           <div class="card hoverable">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="img/beverly.jpg">
@@ -182,10 +198,11 @@
   <!-- Center Tour Section -->
   <div class="container">
     <div class="section">
-      <div class="row">
+      <a href="tour"></a>
+      <div class="row"  id="tour">
         <h4 class="center">Welcome to House on the Hill Childcare!</h4>
-        <div id="tour">
-          <a href="tour"></a>
+        <p class="center">Click or swipe to see more images</p>
+        <div>
           <div class="carousel carousel-slider center daycare-images">
             <a class="carousel-item" href="#one!">
               <img src="img/childcare-center.jpg" class="responsive-img">
@@ -225,13 +242,13 @@
             </a>
           </div>
           <br />
-          <hr />
           <div class="col s12 center">
             <h3>
               <i class="mdi-content-send brown-text"></i>
             </h3>
             <div id="contact-us">
               <a href="contact-us"></a>
+              <hr />
               <h4>
                 <i class="small material-icons">phone_iphone</i> Contact Us</h4>
               <p class="center-align light">We are located near Shelby Bottoms Park in East Nashville, just minutes from downtown.</p>
@@ -259,7 +276,7 @@
     <div class="section">
       <div class="row">
         <h4 class="center">Meet the Kids</h4>
-        <div class="col s12">
+        <div class="col s12 center">
           <img src="img/kids6.jpg" class="responsive-img circle z-depth-3">
           <img src="img/kids1.jpg" class="responsive-img circle z-depth-3">
           <img src="img/kids2.png" class="responsive-img circle z-depth-3">
@@ -284,32 +301,35 @@
   </div>
 
   <footer class="page-footer green">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">House on the Hill Childcare</h5>
-            <p class="grey-text text-lighten-4">Miss Leni: 615-497-7746 | Ms. B.: 615-968-4324 <br /> East Nashville, Tennessee </p>
-          </div>
-          <div class="col l6 s12">
-            <!-- <h5 class="white-text">Links</h5> -->
-            <ul class="tag-line-footer">
-              <li><img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img"></li>
-              <li class="grey-text text-lighten-3">Learn. </li>
-              <li class="grey-text text-lighten-3">Create. </li>
-              <li class="grey-text text-lighten-3">Laugh. </li>
-              <li class="grey-text text-lighten-3">Grow. </li>
-            </ul>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">House on the Hill Childcare</h5>
+          <p class="grey-text text-lighten-4">Miss Leni: 615-497-7746 | Ms. B.: 615-968-4324
+            <br /> East Nashville, Tennessee </p>
+        </div>
+        <div class="col l6 s12">
+          <!-- <h5 class="white-text">Links</h5> -->
+          <ul class="tag-line-footer">
+            <li>
+              <img src="img/house-logo.png" alt="house logo" class="house-logo responsive-img">
+            </li>
+            <li class="grey-text text-lighten-3">Learn. </li>
+            <li class="grey-text text-lighten-3">Create. </li>
+            <li class="grey-text text-lighten-3">Laugh. </li>
+            <li class="grey-text text-lighten-3">Grow. </li>
+          </ul>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
         © 2018 House on the Hill Childcare | Made by
         <a href="http://kimberlybird.me" target="_blank" class="brown-text">Kimberly Bird</a> with
         <a class="brown-text" href="http://materializecss.com" target="_blank">Materialize</a>
-        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

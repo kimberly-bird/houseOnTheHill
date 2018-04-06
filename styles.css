@@ -3,7 +3,7 @@
     border-radius: 50px;
     width: auto;
     height: 150px; 
-    margin: 10px;
+    margin: -15px -15px 15px -15px;
 }
 
 .carousel .carousel-item {
@@ -16,32 +16,24 @@
     
 }
 
-.nav-list {
-    margin-left: 20px;
-    position: absolute;
-    right: 0px;
+.nav-style {
+    background-color: rgba(0, 128, 0, 0.651);
 }
-
-.nav-list > li > a {
-    margin-left: 50px;
-    font-size: 1.7em;
-    color: rgba(0, 128, 0, 0.651);
-}
-
 
 .bio {
     text-align: justify;
 }
 
 .img-desc {
-    color: white;
-    position: absolute;
-    top: 8px;
-    left: 25px;
-    background-color: rgba(0, 128, 0, 0.651);
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
+    background-color: rgba(0, 128, 0, 0.651);
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 48%;
+    transform: translate(-50%, -50%);
 }
 
 .daycare-images {
@@ -49,8 +41,8 @@
 }
 
 .card {
-    height: 450px;
-    width: 400px;
+    max-height: 450px;
+    max-width: 400px;
     overflow: hidden;
    }
    .card img {
